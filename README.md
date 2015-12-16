@@ -13,7 +13,7 @@ Tested with Marklogic 8.0.3 and 8.0.4
 1. Place it in this project directory
 1. Build the image with: `docker build -t marklogic:8.0-4 .`
 1. Create a container with: `docker run -d --name=marklogic -p 8000:8000 -p 8001:8001 -p 8002:8002 -p 8010:8010 -p 8011:8011 marklogic:8.0-4`
-1. Connect to: `http://localhost:8001/`
+1. Connect to http://localhost:8001/
 1. Skip first screen by clicking on `skip`
 1. Enter `admin`/`admin` as user/password
 1. You're good. 
